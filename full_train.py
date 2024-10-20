@@ -66,7 +66,7 @@ def main():
     # Perform hyperparameter optimization
     best_params = simulated_annealing(
         X, y, initial_params, param_bounds, feature_names,
-        max_evals=100, initial_temp=100.0, cooling_rate=0.95, random_state=43,
+        max_evals=100, initial_temp=100.0, cooling_rate=0.95, random_state=None,
         num_initializations=5, min_sample_size=500, max_sample_size=5000, patience=10
     )
     print("Hyperparameter optimization completed.")

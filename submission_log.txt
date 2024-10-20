@@ -3,5 +3,8 @@ Submission 1: local ~0.92, public 0.86, approach is in starter.ipynb
 
 Submission 2: local ~0.93, public 0.90, approach is weighted mahalanobis distance, k, and simulated annealing on regularization/k with low upper bound on k, k ~= 30
 
+Submission 3: local 0.9394, public 0.91360, approach is k=207 KNN with ReLU feature transform
 
+Submission 4: local 0.9406, public 0.91131, same as above just longer run / more compute (k=204)
 
+Submission 5: local 0.9423*, public ???, manhattan distance with k=21 and heavy regularization

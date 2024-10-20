@@ -138,8 +138,9 @@ def simulated_annealing(X, y, initial_params, param_bounds, feature_names,
                         max_evals=100, initial_temp=100.0,
                         cooling_rate=0.95, random_state=42, num_initializations=5,
                         min_sample_size=500, max_sample_size=None, patience=3):
-    np.random.seed(random_state)
-    random.seed(random_state)
+    if random_state:
+        np.random.seed(random_state)
+        random.seed(random_state)
     total_samples = len(X)
     if max_sample_size is None:
         max_sample_size = len(X)
