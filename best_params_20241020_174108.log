@@ -1,0 +1,1 @@
+{"k": 7, "distance_metric": "minkowski", "weighted": true, "p": 4.84, "scaling_method": "standard", "regularization": 0.006958571121968028, "feature_transformations": ["interaction"], "feature_weights": [1.0, 1.0, 0.9565617930134915, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.9965790150001413, 1.0]}
